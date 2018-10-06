@@ -5,4 +5,22 @@
   <body style="margin:0;padding:0;">
     <img src="kers.jpg" style="width: 100vw; height: 100vh" alt="🍒"/>
   </body>
+  <script src="snow.js"></script>
+  <script>
+    snowFall.snow(document.getElementsByTagName("body"), {
+        flakeCount : 35,
+                flakeColor : '#ffffff',
+                flakeIndex: 999999,
+                flakePosition: 'absolute',
+                minSize : 24,
+                maxSize : 32,
+                minSpeed : 1,
+                maxSpeed : 5,
+                round : false,
+                shadow : false,
+                collection : false,
+                image : "cherry.png",
+                collectionHeight : 40
+    });
+  </script>
 </html>
